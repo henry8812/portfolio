@@ -1,137 +1,182 @@
-const logotext = "JOHN";
+const logotext = "Henry Gomez";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Henry Gomez",
+    description: "I’m Henry Gomez - Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Henry Gomez",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I create amazing user experiences",
+        third: "I build scalable applications",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "As a passionate full stack developer, I am always staying up-to-date with the latest technologies and trends that make life easier. My expertise lies in both frontend and backend development, and I believe that anything is possible in the tech world with a little bit of critical thinking and patience. Let's work together to create something incredible!",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I am a passionate full-stack developer with expertise in both front-end and back-end development. I love to stay up-to-date with the latest technologies and trends, and I believe that anything is possible with the right mindset and approach. I have a strong talent for back-end development, but I also enjoy working on the front-end and creating visually appealing and user-friendly websites. In my free time, I enjoy exploring new technologies, learning new programming languages, and building cool projects. Let's build something amazing together!",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Software Engineer",
+        where: "Bairesdev",
+        date: "Aug 2022 - May 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Development Manager",
+        where: "Wekall",
+        date: "May 2021 - Aug 2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Tech lead",
+        where: "Wekall",
+        date: "Mar 2018 - May 2021",
     },
+    {
+        jobtitle : "Tech lead",
+        where    : "NM SAS",
+        date     : "Apr 2014 - Sept 2019"
+
+    },
+    {
+        jobtitle  :   "Software Engineer",
+        where     :   "lucapacioli",
+        date      :   "Jan 2013 - Apr  2014"
+    },
+    {
+        jobtitle   :  "Tech lead",
+        where      :  "callmeip",
+        date       :  "Mar 2011 - Jun 2012"
+    }
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Python",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Django",
         value: 85,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 90,
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
         name: "Jquery",
+        value: 90,
+    },
+    {
+        name: "C++",
         value: 85,
     },
+    {
+        name: "Java",
+        value: 80,
+    },
+    {
+        name: "PHP",
+        value: 85,
+    },
+    {
+        name: "CodeIgniter",
+        value: 80,
+    },
+    {
+        name: "SQL",
+        value: 90,
+    },
+    {
+        name: "JavaScript",
+        value: 90,
+    },
+    {
+        name: "Node.js",
+        value: 85,
+    },
+    {
+        name: "AWS",
+        value: 80,
+    },
+    {
+        name: "Terraform",
+        value: 80,
+    },
+    {
+        name: "Asterisk",
+        value: 75,
+    },
+    {
+        name: "FreeSWITCH",
+        value: 75,
+    },
+    {
+        name: "Twilio",
+        value: 80,
+    },
+    {
+        name: "Flex",
+        value: 75,
+    },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+
+const services = [
+    {
+      name: "Web Development",
+      description: "Custom website development using HTML, CSS, JavaScript, and PHP",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      name: "WordPress Development",
+      description: "Custom WordPress development, including plugins and themes",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      name: "WordPress Consulting",
+      description: "Expert advice on WordPress setup, customization, and management",
     },
-];
+    {
+      name: "Phone System Setup",
+      description: "Installation and configuration of phone systems based on Asterisk and FreeSWITCH",
+    },
+    {
+      name: "Twilio Integration",
+      description: "Integration of Twilio services into custom applications",
+    },
+    {
+      name: "Frontend Development",
+      description: "Creation of user interfaces using modern frontend frameworks such as React",
+    },
+    {
+      name: "Backend Development",
+      description: "Development of scalable backend systems using Node.js, Django, and other technologies",
+    },
+    {
+      name: "E-commerce Solutions",
+      description: "Development of custom e-commerce websites and solutions",
+    }
+  ];
+  
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://192.168.122.3/adminwekall.jpeg",
+        description: "Administration portal for the Wekall platform. To develop this portal, a series of automations were implemented to reduce the time it takes for clients to acquire our services from weeks to just minutes.",
+        link: "http://admin.wekall.co",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ".http://192.168.122.3/admincccc.jpeg",
+        description: "Administration portal for the CCC Kmelx. an elearning portal that the city uses to train small businesses to increase their value in the market.",
+        link: "http://ccc.kmelx.com",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://192.168.122.3/wekallportal.jpeg",
+        description: "Wep portal for Wekall, a PBX platform whose value in the market is improving the service that the companies serve to their customers",        link: "#",
     },
 ];
 
