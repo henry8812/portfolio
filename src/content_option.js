@@ -12,7 +12,7 @@ const introdata = {
         third: "I build scalable applications",
     },
     description: "As a passionate full stack developer, I am always staying up-to-date with the latest technologies and trends that make life easier. My expertise lies in both frontend and backend development, and I believe that anything is possible in the tech world with a little bit of critical thinking and patience. Let's work together to create something incredible!",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://4bfa-201-185-17-145.ngrok-free.app/images/bg.jpg",
 };
 
 const dataabout = {
@@ -165,37 +165,45 @@ const services = [
   
 
 const dataportfolio = [{
-        img: "http://192.168.122.3/adminwekall.jpeg",
+        img: "https://4bfa-201-185-17-145.ngrok-free.app/images/adminwekall.jpeg",
         description: "Administration portal for the Wekall platform. To develop this portal, a series of automations were implemented to reduce the time it takes for clients to acquire our services from weeks to just minutes.",
         link: "http://admin.wekall.co",
     },
     {
-        img: ".http://192.168.122.3/admincccc.jpeg",
+        img: "https://4bfa-201-185-17-145.ngrok-free.app/images/adminccc.jpeg",
         description: "Administration portal for the CCC Kmelx. an elearning portal that the city uses to train small businesses to increase their value in the market.",
         link: "http://ccc.kmelx.com",
     },
     {
-        img: "http://192.168.122.3/wekallportal.jpeg",
-        description: "Wep portal for Wekall, a PBX platform whose value in the market is improving the service that the companies serve to their customers",        link: "#",
+        img: "https://4bfa-201-185-17-145.ngrok-free.app/images/wekallportal.jpeg",
+        description: "Wep portal for Wekall, a PBX platform whose value in the market is improving the service that the companies serve to their customers", 
+        link: "http://wekall.co",
     },
+    {
+        img : "https://cdn.dribbble.com/users/1812146/screenshots/6968859/media/4dbc28dbc8ba5743377283381fd83286.png?compress=1&resize=1600x1200&vertical=top",
+        description: "Web app to share recipes with collegues and friends",
+        link : "#"
+
+    }
+
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "henry8812@gmail.com",
+    YOUR_FONE: "+57 3104155557",
+    description: "I am a passionate full-stack developer with expertise in both front-end and back-end development. I love to stay up-to-date with the latest technologies and trends, and I believe that anything is possible with the right mindset and approach. I have a strong talent for back-end development, but I also enjoy working on the front-end and creating visually appealing and user-friendly websites. In my free time, I enjoy exploring new technologies, learning new programming languages, and building cool projects. Let's build something amazing together!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_noa2i0o",
+    YOUR_TEMPLATE_ID: "template_hdf4zie",
+    YOUR_USER_ID: "4Aiq4PEyKP6jBz-T1",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/henry8812",
+    facebook: "https://facebook.com/xanadu8812",
+    linkedin: "https://www.linkedin.com/in/henry-gomez-98a954b1",
+    twitter: "https://twitter.com/henry8812",
 };
 export {
     meta,
