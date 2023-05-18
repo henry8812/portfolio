@@ -12,7 +12,7 @@ const introdata = {
         third: "I build scalable applications",
     },
     description: "As a passionate full stack developer, I am always staying up-to-date with the latest technologies and trends that make life easier. My expertise lies in both frontend and backend development, and I believe that anything is possible in the tech world with a little bit of critical thinking and patience. Let's work together to create something incredible!",
-    your_img_url: "https://4bfa-201-185-17-145.ngrok-free.app/images/bg.jpg",
+    your_img_url: "./images/bg.jpg",
 };
 
 const dataabout = {
@@ -162,21 +162,21 @@ const services = [
       description: "Development of custom e-commerce websites and solutions",
     }
   ];
-  
+
 
 const dataportfolio = [{
-        img: "https://4bfa-201-185-17-145.ngrok-free.app/images/adminwekall.jpeg",
+        img: "./images/adminwekall.jpeg",
         description: "Administration portal for the Wekall platform. To develop this portal, a series of automations were implemented to reduce the time it takes for clients to acquire our services from weeks to just minutes.",
         link: "http://admin.wekall.co",
     },
     {
-        img: "https://4bfa-201-185-17-145.ngrok-free.app/images/adminccc.jpeg",
+        img: "./images/adminccc.jpeg",
         description: "Administration portal for the CCC Kmelx. an elearning portal that the city uses to train small businesses to increase their value in the market.",
         link: "http://ccc.kmelx.com",
     },
     {
-        img: "https://4bfa-201-185-17-145.ngrok-free.app/images/wekallportal.jpeg",
-        description: "Wep portal for Wekall, a PBX platform whose value in the market is improving the service that the companies serve to their customers", 
+        img: "./images/wekallportal.jpeg",
+        description: "Wep portal for Wekall, a PBX platform whose value in the market is improving the service that the companies serve to their customers",
         link: "http://wekall.co",
     },
     {
@@ -192,7 +192,7 @@ const contactConfig = {
     YOUR_EMAIL: "henry8812@gmail.com",
     YOUR_FONE: "+57 3104155557",
     description: "I am a passionate full-stack developer with expertise in both front-end and back-end development. I love to stay up-to-date with the latest technologies and trends, and I believe that anything is possible with the right mindset and approach. I have a strong talent for back-end development, but I also enjoy working on the front-end and creating visually appealing and user-friendly websites. In my free time, I enjoy exploring new technologies, learning new programming languages, and building cool projects. Let's build something amazing together!",
-    // creat an emailjs.com account 
+    // creat an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_noa2i0o",
     YOUR_TEMPLATE_ID: "template_hdf4zie",
